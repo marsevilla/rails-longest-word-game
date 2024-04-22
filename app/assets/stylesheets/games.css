@@ -1,0 +1,29 @@
+h1 {
+ color: pink;
+ font-size: 100%;
+ font-family: Arial, Helvetica, sans-serif;
+ padding: 50px;
+ font-weight: 100;
+}
+
+.letter-heading {
+  font-size: 24px;
+  color: green;
+  margin-left: 50px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+form {
+  color: black;
+  padding: 50px;
+}
+
+p {
+  margin-left: 50px;
+}
+
+.link {
+  color: cornflowerblue;
+  margin-left: 50px;
+}

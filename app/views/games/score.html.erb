@@ -1,0 +1,15 @@
+<h1>Result</h1>
+
+<% if @score == 0 %>
+  <% if @valid_word %>
+    <p><%= "Congratulations! #{@word} is a valid English word!" %></p>
+  <% else %>
+    <p><%= "Sorry, #{@word} does not seem to be a valid English word" %></p>
+  <% end %>
+<% else %>
+<p><%= "Sorry, but the #{@word} can't be built out of #{@letters}" %></p>
+<% end %>
+
+<p>Current score: <%= session[:current_score] || 0 %></p>
+
+<%= link_to "Play again", new_path, class: "link" %>
